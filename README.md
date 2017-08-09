@@ -15,8 +15,9 @@
 >+ ##### Legajo 0098028 
 >+ ##### Mail: mjonatanm@gmail.com
 
-~~Scratch this.~~
-
+##### Tematica del Proyecto.
+>+ Realizaciòn de un control de stock para repuestos automotor. La misma contará:
+- [ ] Solicitud de pedido.
 
 
 
