@@ -15,7 +15,8 @@
 >+ ##### Legajo 0098028 
 >+ ##### Mail: mjonatanm@gmail.com
 
-### <u> Tematica del grupo: </u>
+### <big> Tematica del grupo: </big>
+<u>Así subrayaríamos una frase importante</u>
 
 
 
