@@ -1,9 +1,9 @@
 # Bienvenidos!
-### Somos el grupo Limones
+## Somos el grupo Limones 
 
 ![alt text](http://images.clipartlogo.com/files/ss/original/760/76005076/cartoon-lemon-and-lime-jumping.jpg "Limon")
 ### Nuestro equipo está conformado por Jonatan Morales y Julieta Gallego.
-###
+### Somos estudiantes de la carrera Licenciatura en Tecnologías de la Información en la Universidad de Palermo.
 
 
 
@@ -14,6 +14,8 @@
 ##### <b>Jonatan Morales</b>
 >+ ##### Legajo 0098028 
 >+ ##### Mail: mjonatanm@gmail.com
+
+### <u> Tematica del grupo: </u>
 
 
 
