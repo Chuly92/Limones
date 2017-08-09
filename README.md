@@ -1,2 +1,2 @@
 # Grupo Limones
-  ### Integrantes: Jonatan Morales, Julieta Gallego.
+#### Integrantes: Jonatan Morales, Julieta Gallego.
