@@ -17,6 +17,7 @@
 
 ### <big> Tematica del grupo: </big>
 <u>Así subrayaríamos una frase importante</u>
+- [ ] esta es una tarea incompleta
 
 
 
