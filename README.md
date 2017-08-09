@@ -7,11 +7,11 @@
 
 
 
-#### <s>Datos de contacto:</s>
-##### Julieta Gallego
-+ ##### Legajo 0098720 
-+ ##### Mail: julietagallego92@gmail.com
-##### Jonatan Morales
+#### Datos de contacto:
+##### <b>Julieta Gallego</b>
+>+ ##### Legajo 0098720 
+>+ ##### Mail: julietagallego92@gmail.com
+##### <b>Jonatan Morales</b>
 >+ ##### Legajo 0098028 
 >+ ##### Mail: mjonatanm@gmail.com
 
