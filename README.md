@@ -17,7 +17,7 @@
 
 ##### Tematica del Proyecto.
 >+ Realizaciòn de un control de stock para repuestos automotor. La misma contará:
-- [ ] Solicitud de pedido.
+##### - [ ] Solicitud de pedido.
 
 
 
