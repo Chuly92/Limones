@@ -14,7 +14,8 @@
 
 ###### *Jonatan Morales
 ###### *Legajo 0098028 
-<b> ###### Mail: mjonatanm@gmail.com </b>
+###### Mail: mjonatanm@gmail.com
++ Mail: mjonatanm@gmail.com
 
 
 
