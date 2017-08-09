@@ -16,7 +16,7 @@
 >+ ##### Mail: mjonatanm@gmail.com
 
 ##### Tematica del Proyecto.
->+ Realizaciòn de un control de stock para repuestos automotor. La misma contará:
+Realizaciòn de un control de stock para repuestos automotor. La misma contará:
 ##### - [ ] Solicitud de pedido.
 
 
