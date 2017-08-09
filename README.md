@@ -15,7 +15,7 @@
 >+ ##### Legajo 0098028 
 >+ ##### Mail: mjonatanm@gmail.com
 
-### <big> Tematica del grupo: </big>
+__**Tematica del grupo: **__
 <u>Así subrayaríamos una frase importante</u>
 - [ ] esta es una tarea incompleta
 
