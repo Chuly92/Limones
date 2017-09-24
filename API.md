@@ -4,7 +4,7 @@
 
 * #### URL
 
-> ##### /products
+> ##### /products/list
 
 * #### Params
 
@@ -31,7 +31,7 @@
 
 * #### URL
 
-> ##### /products/:code
+> ##### /products/list/:code
 
 * #### Params
 
@@ -58,7 +58,7 @@
 
 * #### URL
 
-> ##### /products/:name
+> ##### /products/list/:name
 
 * #### Params
 
@@ -81,3 +81,118 @@
 
 ----------------------------------------------------------------------------------------------------------
 
+## Método POST
+
+### 1. Alta de producto
+
+* #### URL
+
+> ##### /products/new_product
+
+* #### Params
+
+> ##### Required: code=[integer], name=[string], price=[decimal], stock=[integer]  
+  
+* #### Success Response
+
+> ##### Code: 201 
+> ##### Content: { "Su producto ha sido dado de alta exitósamente en la base de datos." }
+
+* #### Error Response
+
+> ##### Code: 422 UNPROCESSABLE ENTITY
+
+> ##### Content: { error : "No se pudo realizar el alta del producto solicitado." }
+
+> ##### Code: 408 REQUEST TIMEOUT 
+
+> ##### Content: { error : "Sitio momentáneamente no disponible. Por favor reintente en unos instantes." }
+
+----------------------------------------------------------------------------------------------------------
+
+## Método PUT
+
+### 1. Modificación del stock del producto
+
+* #### URL
+
+> ##### /products/alter_stock
+
+* #### Params
+
+> ##### Required: code=[integer], stock=[integer]  
+  
+* #### Success Response
+
+> ##### Code: 200 
+> ##### Content: { "Su producto ha sido modificado exitósamente." }
+
+* #### Error Response
+
+> ##### Code: 422 UNPROCESSABLE ENTITY
+
+> ##### Content: { error : "No se pudo realizar la modificación del producto solicitado." }
+
+> ##### Code: 408 REQUEST TIMEOUT 
+
+> ##### Content: { error : "Sitio momentáneamente no disponible. Por favor reintente en unos instantes." }
+
+----------------------------------------------------------------------------------------------------------
+
+## Método PUT
+
+### 2. Modificación del precio del producto
+
+* #### URL
+
+> ##### /products/alter_price
+
+* #### Params
+
+> ##### Required: code=[integer], price=[decimal]  
+  
+* #### Success Response
+
+> ##### Code: 200 
+> ##### Content: { "Su producto ha sido modificado exitósamente." }
+
+* #### Error Response
+
+> ##### Code: 422 UNPROCESSABLE ENTITY
+
+> ##### Content: { error : "No se pudo realizar la modificación del producto solicitado." }
+
+> ##### Code: 408 REQUEST TIMEOUT 
+
+> ##### Content: { error : "Sitio momentáneamente no disponible. Por favor reintente en unos instantes." }
+
+----------------------------------------------------------------------------------------------------------
+
+## Método DELETE
+
+### 1. Baja de producto específico
+
+* #### URL
+
+> ##### /products/delete_product
+
+* #### Params
+
+> ##### Required: code=[integer] 
+  
+* #### Success Response
+
+> ##### Code: 200 
+> ##### Content: { "Su producto ha sido eliminado exitósamente." }
+
+* #### Error Response
+
+> ##### Code: 422 UNPROCESSABLE ENTITY
+
+> ##### Content: { error : "No se pudo realizar la eliminación del producto solicitado." }
+
+> ##### Code: 408 REQUEST TIMEOUT 
+
+> ##### Content: { error : "Sitio momentáneamente no disponible. Por favor reintente en unos instantes." }
+
+----------------------------------------------------------------------------------------------------------
