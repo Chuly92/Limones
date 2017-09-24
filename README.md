@@ -12,6 +12,9 @@ Control de stock para repuestos del rubro automotor. Contará con las siguientes
 - [ ] Modificacion de datos de repuestos.
 - [ ] Listar productos con sus características.
 
+### Documentación de la API
+- [ ] [Link a la documentación](https://github.com/Chuly92/Limones/blob/master/API.md)
+
 #### Datos del Grupo:
 ##### <b>Julieta Gallego</b>
 >+ ##### Legajo 0098720 
@@ -20,8 +23,6 @@ Control de stock para repuestos del rubro automotor. Contará con las siguientes
 >+ ##### Legajo 0098028 
 >+ ##### Mail: mjonatanm@gmail.com
 
-### Documentación de la API
-- [ ] ![alt text](https://github.com/Chuly92/Limones/blob/master/API.md "Documentacion")
 
 
 
