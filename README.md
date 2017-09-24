@@ -5,7 +5,7 @@
 ### Nuestro equipo está conformado por Jonatan Morales y Julieta Gallego.
 ### Somos estudiantes de la carrera Licenciatura en Tecnologías de la Información en la Universidad de Palermo.
 
-### Tematica del Proyecto.
+### Temática del Proyecto.
 Control de stock para repuestos del rubro automotor. Contará con las siguientes funcionalidades:
 - [ ] Alta de nuevos repuestos.
 - [ ] Baja de respuestos.
@@ -20,8 +20,8 @@ Control de stock para repuestos del rubro automotor. Contará con las siguientes
 >+ ##### Legajo 0098028 
 >+ ##### Mail: mjonatanm@gmail.com
 
-
-
+### Documentación de la API
+- [ ] ![alt text](https://github.com/Chuly92/Limones/blob/master/API.md "Documentacion")
 
 
 
