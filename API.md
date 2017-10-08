@@ -1,10 +1,10 @@
 ## Método GET
 
-### 1. Listar todos los productos
+### 1. Lista de todos los productos paginada en orden alfabético.
 
 * #### URL
 
-> ##### /products/list
+> ##### /products
 
 * #### Params
 
@@ -31,38 +31,11 @@
 
 * #### URL
 
-> ##### /products/list/:code
+> ##### /products/X
 
 * #### Params
 
-> ##### Required: code=[integer] 
-  
-* #### Success Response
-
-> ##### Code: 200 
-> ##### Content: { code : 1, name : "Embrague Sachs", price : 2000.00, stock : 15 }
-
-* #### Error Response
-
-> ##### Code: 404 NOT FOUND 
-
-> ##### Content: { error : "No hay datos para el código de producto solicitado." }
-
-> ##### Code: 408 REQUEST TIMEOUT 
-
-> ##### Content: { error : "Sitio momentáneamente no disponible. Por favor reintente en unos instantes." }
-
-----------------------------------------------------------------------------------------------------------
-
-### 3. Listar un producto específico por nombre
-
-* #### URL
-
-> ##### /products/list/:name
-
-* #### Params
-
-> ##### Required: name=[string] 
+> ##### Required: code=[integer] | OR | name=[string]
   
 * #### Success Response
 
@@ -87,7 +60,7 @@
 
 * #### URL
 
-> ##### /products/new_product
+> ##### /products
 
 * #### Params
 
@@ -100,27 +73,33 @@
 
 * #### Error Response
 
-> ##### Code: 422 UNPROCESSABLE ENTITY
+> ##### Code: 405 INVALID INPUT
 
-> ##### Content: { error : "No se pudo realizar el alta del producto solicitado." }
+> ##### Content: { error : "Los datos ingresádos no son válidos o faltan campos a completar. Favor de verificar." }
 
 > ##### Code: 408 REQUEST TIMEOUT 
 
 > ##### Content: { error : "Sitio momentáneamente no disponible. Por favor reintente en unos instantes." }
+
+> ##### Code: 422 UNPROCESSABLE ENTITY
+
+> ##### Content: { error : "No se pudo realizar el alta del producto solicitado." }
 
 ----------------------------------------------------------------------------------------------------------
 
 ## Método PUT
 
-### 1. Modificación del stock del producto
+### 1. Modificación de datos de un producto
 
 * #### URL
 
-> ##### /products/alter_stock
+> ##### /products/X
 
 * #### Params
 
 > ##### Required: code=[integer], stock=[integer]  
+
+> ##### Optional: name=[string], price=[decimal], stock=[integer]    
   
 * #### Success Response
 
@@ -129,40 +108,18 @@
 
 * #### Error Response
 
-> ##### Code: 422 UNPROCESSABLE ENTITY
+> ##### Code: 404 NOT FOUND 
 
-> ##### Content: { error : "No se pudo realizar la modificación del producto solicitado." }
+> ##### Content: { error : "No hay datos para el producto solicitado." }
 
 > ##### Code: 408 REQUEST TIMEOUT 
 
 > ##### Content: { error : "Sitio momentáneamente no disponible. Por favor reintente en unos instantes." }
-
-----------------------------------------------------------------------------------------------------------
-
-### 2. Modificación del precio del producto
-
-* #### URL
-
-> ##### /products/alter_price
-
-* #### Params
-
-> ##### Required: code=[integer], price=[decimal]  
-  
-* #### Success Response
-
-> ##### Code: 200 
-> ##### Content: { "Su producto ha sido modificado exitósamente." }
-
-* #### Error Response
 
 > ##### Code: 422 UNPROCESSABLE ENTITY
 
 > ##### Content: { error : "No se pudo realizar la modificación del producto solicitado." }
 
-> ##### Code: 408 REQUEST TIMEOUT 
-
-> ##### Content: { error : "Sitio momentáneamente no disponible. Por favor reintente en unos instantes." }
 
 ----------------------------------------------------------------------------------------------------------
 
@@ -172,7 +129,7 @@
 
 * #### URL
 
-> ##### /products/delete_product
+> ##### /products/X
 
 * #### Params
 
@@ -185,12 +142,16 @@
 
 * #### Error Response
 
-> ##### Code: 422 UNPROCESSABLE ENTITY
+> ##### Code: 404 NOT FOUND 
 
-> ##### Content: { error : "No se pudo realizar la eliminación del producto solicitado." }
+> ##### Content: { error : "No hay datos para el producto solicitado." }
 
 > ##### Code: 408 REQUEST TIMEOUT 
 
 > ##### Content: { error : "Sitio momentáneamente no disponible. Por favor reintente en unos instantes." }
+
+> ##### Code: 422 UNPROCESSABLE ENTITY
+
+> ##### Content: { error : "No se pudo realizar la eliminación del producto solicitado." }
 
 ----------------------------------------------------------------------------------------------------------
