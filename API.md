@@ -1,6 +1,6 @@
 ## Método GET
 
-### 1. Lista de todos los productos paginada en orden alfabético.
+### 1. Lista de todos los productos paginada
 
 * #### URL
 
@@ -27,7 +27,7 @@
 
 ----------------------------------------------------------------------------------------------------------
 
-### 2. Listar un producto específico por código
+### 2. Listar un producto específico por código o nombre
 
 * #### URL
 
